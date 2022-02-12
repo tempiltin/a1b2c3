@@ -1,6 +1,7 @@
 const createError = require('http-errors');
 const express = require('express');
 const path = require('path');
+const puppeterr = require('puppeteer')
 const cookieParser = require('cookie-parser');
 const logger = require('morgan');
 const exhbs = require('express-handlebars')
